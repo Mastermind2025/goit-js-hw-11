@@ -45,7 +45,7 @@ function onInputSearch(event) {
 async function downloadFromPixabay(query, myPage) {
     const options = {
         params: {
-            key: '31598884-ea00c386bb36a2be5ba3c24a4',
+            key: '31598884-ea00c386bb36a2be5ba3c24a4', // this's my key
             q: query,
             image_type: 'photo',
             orientation: 'horizontal',
