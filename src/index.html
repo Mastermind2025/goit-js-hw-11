@@ -7,17 +7,27 @@
   <title>Page title</title>
   <link rel="stylesheet" href="./sass/index.scss" />
   <script type="module" src="./index.js"></script>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/89f5762326.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
- 
-  <include src="./partials/imageSearchApp.html"></include>
+  <!-- ❗️❗️❗️ Add partials like so for every page -->
+  <!-- <include src="./partials/example.html"></include> -->
+  <header>
+    <form class="search-form" id="search-form">
+      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+      <button type="submit">Search</button>
+    </form>
+  </header>
+  <section>
+    <div class="gallery">
+
+    </div>
+  </section>
+  <footer>
+    <button type="button" class="load-more">
+      Load more
+    </button>
+  </footer>
 </body>
 
 </html>
